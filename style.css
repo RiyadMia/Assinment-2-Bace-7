@@ -12,8 +12,6 @@ nav {
     justify-content: space-between;
 }
 
-.nav-titel {}
-
 nav ul {
     display: flex;
     align-items: center;
@@ -27,8 +25,6 @@ nav li {
 }
 
 /* banner styles */
-.banner{
-}
 .header-page{
     margin: 100px;
     text-align: center;
@@ -185,8 +181,76 @@ padding: 10px;
 .image-color{
     filter: grayscale(10); 
 }
+/* footer-text */
+.footer-text{
+    margin-top: 60px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+/* mobile dives responsibe */
 
-
+@media only screen and (max-width:888px){
+    .Sponspors-continer,.gride-icon,.cointer-img{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    nav ul,.continer,.container-Features{
+        display: block;
+    }
+    .hrader-title{
+        font-size: 22px;
+    }
+    .container-Features-title{
+        font-size: 12px;
+    }
+   .banner-img{
+    padding-left: 60px;
+    height: 200px;
+    width: 200px;
+   }
+   .img-sizeing{
+    height: 220px;
+    width: 300px;
+    padding: 20px;
+   }
+   .Some-facts-title{
+    font-size: 30px;
+    color: aqua;
+   }
+   .Year-top{
+    transform: translate(0px );
+    margin-top: 0px;
+   }
+   .btn-years{
+    padding: 5px 10px;
+   }
+    .Year-title{
+     font-size: 15px;
+   }
+   .img-size{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+   }
+   .grid-btn{
+    font-size: 10px;
+   }
+   .year-Experience{
+    font-size: 8px;
+   }
+   .main-cointainer{
+   padding: 10px;
+   }
+   .main-title{
+    padding-top: 80px;
+   }
+   .border-img{
+    margin-top: 15px;
+   }
+}
+ 
+ 
 
 
 
