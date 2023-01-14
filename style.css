@@ -167,7 +167,24 @@ padding: 10px;
     margin: 0px;
 }
 
-
+/* Sponspors  */
+.Sponspors-header{
+    text-align: center;
+}
+.Sponspors-title{
+      font-size: 40px;
+      font-weight: 900;
+}
+.Sponspors-continer{
+    padding-top: 40px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.image-color{
+    filter: grayscale(10); 
+}
 
 
 
