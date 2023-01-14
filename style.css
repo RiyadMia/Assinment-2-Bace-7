@@ -6,17 +6,19 @@
 .navs{
     margin-left: 50px;
 }
+.menu-bar{
+    display: none;
+}
 nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
+ 
 nav ul {
     display: flex;
     align-items: center;
 }
-
 nav li {
     list-style: none;
     margin: 10px;
@@ -44,6 +46,8 @@ nav li {
     width: 1100px;
     padding-left: 100px;
 }
+
+
 /* main  */
 .main-cointainer{
     padding: 120px;
@@ -156,7 +160,15 @@ padding: 10px;
 .border-img{
     border: 2px solid orange;
     padding: 20px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 
+    rgba(0, 0, 0, 0.29);  
 }
+.border-img:hover{
+    background-color: grey;
+    box-shadow: 0 4px 10px 0 rgba(95, 206, 15, 0.6), 0 8px 25px 0 
+    rgba(219, 10, 167, 0.29);  
+}
+
 .icon-number{
     font-size: 35px;
     font-weight: 900;
@@ -198,6 +210,16 @@ padding: 10px;
     nav ul,.continer,.container-Features{
         display: block;
     }
+    .navs{
+        font-size: 10px;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .menu-hedin{
+        display: none;
+    }
+        
     .hrader-title{
         font-size: 22px;
     }
@@ -247,6 +269,11 @@ padding: 10px;
    }
    .border-img{
     margin-top: 15px;
+   }
+   .image-color{
+    margin-top: 8px;
+    height: 40px;
+    width: 160px;
    }
 }
  
