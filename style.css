@@ -136,8 +136,8 @@ padding: 10px;
     font-size: 30px; 
     font-weight: 800;
 }
-.Experience{
-    font-size: 10px;
+.year-Experience{
+    font-size: 15px;
 }
 /* Some-facts */
 .Some-facts-title{
@@ -148,7 +148,24 @@ padding: 10px;
      font-size: 15px;
      color: darkgray;
 }
+.gride-icon{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(4, 1fr);
 
+}
+.border-img{
+    border: 2px solid orange;
+    padding: 20px 40px;
+}
+.icon-number{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0px;
+}
 
 
 
