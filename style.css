@@ -92,8 +92,62 @@ padding: 10px;
     padding: 10px 15px;
     background-color: orange;
 }
-
-
+/* container-Features */
+.container-Features{
+     padding-top: 100px;
+    display: flex;
+    gap: 80px;
+}
+.container-Features-title{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    border-left: 5px solid orange;
+}
+.title-cointainer{
+  
+} 
+.title-discription{
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.title-discription,p{
+    font-size: 12px;
+}
+.img-sizeing{
+    height: 700px;
+}
+.Year-top{
+    text-align: center;
+    transform: translate(100px );
+    margin-top: -115px;
+    align-items: center;
+}
+.btn-years{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:orange;
+    padding: 30px 45px;
+}
+.Year-title{
+    font-size: 30px; 
+    font-weight: 800;
+}
+.Experience{
+    font-size: 10px;
+}
+/* Some-facts */
+.Some-facts-title{
+    font-weight: 900;
+    font-size: 40px;
+}
+.Some-Facts-title{
+     font-size: 15px;
+     color: darkgray;
+}
 
 
 
