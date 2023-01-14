@@ -1,0 +1,50 @@
+.header-bg{
+    background-color: rgb(237, 237, 194);
+    padding: 20px;
+}
+/* header and nevegation styls */
+.navs{
+    margin-left: 50px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-titel {}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+/* banner styles */
+.banner{
+}
+.header-page{
+    margin: 100px;
+    text-align: center;
+}
+.hrader-title{ 
+    font-size: 40px;
+}
+.header-btn{
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: orange;
+}
+.banner-img{
+    width: 1100px;
+    padding-left: 100px;
+}
