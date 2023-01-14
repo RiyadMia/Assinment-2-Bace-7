@@ -6,9 +6,6 @@
 .navs{
     margin-left: 50px;
 }
-.menu-bar{
-    display: none;
-}
 nav {
     width: 100%;
     display: flex;
@@ -212,12 +209,6 @@ padding: 10px;
     }
     .navs{
         font-size: 10px;
-    }
-    .menu-bar{
-        display: block;
-    }
-    .menu-hedin{
-        display: none;
     }
         
     .hrader-title{
