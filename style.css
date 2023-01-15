@@ -190,6 +190,42 @@ padding: 10px;
 .image-color{
     filter: grayscale(10); 
 }
+/* whatsup-cointainer */
+.whatsup-cointainer{
+ margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+}
+.center{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.with{
+    color: orange;
+}
+.text{
+    color: rgb(14, 220, 141);
+}
+.taxt-title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.text-dis{
+     font-size: 20px;
+}
+.link-button{
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+padding: 12px 16px;    
+background-color: orangered;
+}
+
 /* footer-text */
 .footer-text{
     margin-top: 60px;
