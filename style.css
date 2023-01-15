@@ -1,5 +1,5 @@
 .header-bg{
-    background-color: rgb(237, 237, 194);
+    background-color:#fff8f3;
     padding: 20px;
 }
 /* header and nevegation styls */
@@ -137,7 +137,7 @@ padding: 10px;
     font-size: 15px;
 }
 /* Some-facts */
-.Some-facts-title{
+.Some-facts{
     font-weight: 900;
     font-size: 40px;
 }
@@ -240,15 +240,22 @@ background-color: orangered;
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
     }
-    nav ul,.continer,.container-Features{
+    nav ul,.continer,.container-Features,.whatsup-cointainer{
         display: block;
     }
     .navs{
         font-size: 10px;
     }
-        
+    nav li{
+        font-size: 12px;
+    }
+    .header-page{
+        margin: 8px;
+    }
+    
     .hrader-title{
-        font-size: 22px;
+        font-weight: bolder;
+        font-size: 28px;
     }
     .container-Features-title{
         font-size: 12px;
@@ -263,8 +270,8 @@ background-color: orangered;
     width: 300px;
     padding: 20px;
    }
-   .Some-facts-title{
-    font-size: 30px;
+   .Some-facts{
+    font-size: 35px;
     color: aqua;
    }
    .Year-top{
@@ -298,9 +305,33 @@ background-color: orangered;
     margin-top: 15px;
    }
    .image-color{
-    margin-top: 8px;
+    margin-top: 28px;
     height: 40px;
     width: 160px;
+   }
+
+   .Some-Facts-title{
+    font-size: 12px;
+   }
+   /* whatsup-img */
+   .center{
+    font-size: 14px;
+    text-align: start;
+   }
+   .whatsup-img{
+    align-items: center;
+    width: 100%;
+   }
+   .taxt-title{
+    font-size: 10px;
+   }
+   .text-dis{
+    font-size: 10px;
+    margin-bottom: 30px;
+   }
+    
+   .main-header{
+    font-size: 10px;
    }
 }
  
