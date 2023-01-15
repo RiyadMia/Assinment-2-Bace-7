@@ -101,9 +101,6 @@ padding: 10px;
     font-size: 35px;
     border-left: 5px solid orange;
 }
-.title-cointainer{
-  
-} 
 .title-discription{
     margin: 15px;
     padding: 15px;
@@ -119,7 +116,7 @@ padding: 10px;
 .Year-top{
     text-align: center;
     transform: translate(100px );
-    margin-top: -115px;
+    margin-top: -110px;
     align-items: center;
 }
 .btn-years{
@@ -127,7 +124,7 @@ padding: 10px;
     border: none;
     border-radius: 5px;
     background-color:orange;
-    padding: 30px 45px;
+    padding: 40px 45px;
 }
 .Year-title{
     font-size: 30px; 
@@ -138,6 +135,7 @@ padding: 10px;
 }
 /* Some-facts */
 .Some-facts{
+    color: aqua;
     font-weight: 900;
     font-size: 40px;
 }
@@ -154,22 +152,29 @@ padding: 10px;
     grid-template-columns: repeat(4, 1fr);
 
 }
+
 .border-img{
-    border: 2px solid orange;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    background-color: grey;
     padding: 20px 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 
-    rgba(0, 0, 0, 0.29);  
+    border-radius: 7px;
+    box-shadow: 15px 20px 10px;
+    border: 5px solid orange;
+    transition: 2s;
 }
 .border-img:hover{
-    background-color: grey;
-    box-shadow: 0 4px 10px 0 rgba(95, 206, 15, 0.6), 0 8px 25px 0 
-    rgba(219, 10, 167, 0.29);  
-}
+ background: linear-gradient(135deg, rgb(230, 16, 191) 50%,
+ rgb(224, 13, 13)
+ );
 
+ }
 .icon-number{
-    font-size: 35px;
-    font-weight: 900;
-    margin: 0px;
+    /* font-size: 45px; */
+    /* font-weight: bolder; */
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
 
 /* Sponspors  */
@@ -258,7 +263,7 @@ background-color: orangered;
         font-size: 28px;
     }
     .container-Features-title{
-        font-size: 12px;
+        font-size: 20px;
     }
    .banner-img{
     padding-left: 60px;
@@ -302,6 +307,7 @@ background-color: orangered;
     padding-top: 80px;
    }
    .border-img{
+    font-size: 10px;
     margin-top: 15px;
    }
    .image-color{
@@ -331,7 +337,7 @@ background-color: orangered;
    }
     
    .main-header{
-    font-size: 10px;
+    font-size: 20px;
    }
 }
  
